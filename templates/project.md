@@ -1,7 +1,5 @@
 # E2E-Projektprofil
 
-<!-- Nach `.ai-e2e/project.md` im Anwendungsrepository kopieren. Keine Zugangsdaten eintragen. Pro Ziel einen Abschnitt; bei nur einem Ziel genügt `default`. -->
-
 ## Ziel: default
 
 - URL: <http://localhost:5173>

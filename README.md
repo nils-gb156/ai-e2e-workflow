@@ -5,7 +5,7 @@ Ein wiederverwendbarer, clientübergreifender Workflow für fachlich nachvollzie
 ## Einstieg
 
 1. [Projekt einrichten und Skills installieren](docs/installation.md).
-2. Das [Projektprofil](templates/project-profile.md) im Anwendungsrepository ausfüllen.
+2. Das [Projektprofil](templates/project.md) im Anwendungsrepository ausfüllen.
 3. Den [Ablauf und die Aufträge](docs/workflow.md) verwenden. Für jeden größeren Schritt eine neue Session starten.
 4. Die [Standardpfade](docs/paths.md) und passende [Client-Anleitung](docs/clients.md) beachten.
 
@@ -23,9 +23,9 @@ Die Sessions tauschen sich über Dateien im Anwendungsprojekt aus. Ein grüner T
 | Pfad | Zweck |
 | --- | --- |
 | `docs/` | Einrichtung, Client-Besonderheiten, Ablauf und Pflege |
-| `skills/` | Sechs gemeinsame Einstiegspunkte für den Workflow |
+| `skills/` | Sechs gemeinsame Einstiegspunkte für den Workflow, inkl. Berichtsvorlagen (`template.md`) |
 | `adapters/opencode/` | Slash-Befehle für OpenCode |
-| `templates/` | Kopiervorlagen für Projektprofil, Plan und Berichte |
+| `templates/` | Kopiervorlage für das Projektprofil |
 | `prompts/` | Kopierbare Aufträge für alle Schritte |
 
 Playwright-Agenten werden mit der im Zielprojekt installierten Playwright-Version erzeugt; sie sind hier nicht vendort. Projektwissen, Testfälle, Reports, Tests und Zugangsdaten gehören ins jeweilige Projekt, nicht in dieses Repository. Die Vorlagen sind Empfehlungen; das Projektprofil legt die tatsächlich verwendeten Pfade fest.

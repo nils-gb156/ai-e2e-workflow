@@ -11,4 +11,4 @@ Prüfe für jeden geplanten Test, ob Assertions und Orakel die freigegebenen Kri
 
 Klassifiziere als bestätigt, nicht ausreichend geprüft, bestätigter Testdefekt, Daten/Umgebung, Produktabweichung, Reifeprüfung/Plan korrigieren oder ungeklärt. Nur einen belegten Testdefekt ausdrücklich für den Healer freigeben; gib Ursache, Belege, betroffene Tests und zulässige Dateien an. Produktabweichungen und ungeklärte Befunde nicht durch Healing verdecken.
 
-Schreibe ausschließlich den Verifikationsbericht. Ändere keine Tests, Produktdateien oder fachlichen Erwartungen. Antworte mit Status, Berichtspfad, offenen Grenzen und dem konkreten nächsten Schritt, bei freigegebenem Testdefekt `/e2e-heal` mit denselben Argumenten.
+Schreibe ausschließlich den Verifikationsbericht und halte dich an die Struktur aus `template.md` in diesem Skill-Verzeichnis. Ändere keine Tests, Produktdateien oder fachlichen Erwartungen. Antworte mit Status, Berichtspfad, offenen Grenzen und dem konkreten nächsten Schritt, bei freigegebenem Testdefekt `/e2e-heal` mit denselben Argumenten.

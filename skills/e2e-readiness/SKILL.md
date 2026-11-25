@@ -11,4 +11,4 @@ Verwende die verfügbaren, für das Projekt konfigurierten Playwright-MCP-Browse
 
 Klassifiziere je Kriterium als bereit, teilweise bereit, blockiert durch Produkt, blockiert durch Daten/Umgebung, anderes Testniveau oder ungeklärt. Bei Überlappung eine Teamentscheidung empfehlen. Halte die ausdrücklich für Planung freigegebenen Kriterien und die offene Abdeckung getrennt fest. Beschreibe Nachweis, Datenbedarf, Voraussetzungen und nächsten Schritt.
 
-Schreibe ausschließlich den Reifebericht. Ändere keine Produktdateien, Tests oder fachlichen Anforderungen. Antworte mit Status, Berichtspfad, Grenzen und, bei Freigabe, `/e2e-plan` mit denselben Argumenten als nächstem Schritt.
+Schreibe ausschließlich den Reifebericht und halte dich an die Struktur aus `template.md` in diesem Skill-Verzeichnis. Ändere keine Produktdateien, Tests oder fachlichen Anforderungen. Antworte mit Status, Berichtspfad, Grenzen und, bei Freigabe, `/e2e-plan` mit denselben Argumenten als nächstem Schritt.

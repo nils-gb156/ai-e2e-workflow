@@ -9,11 +9,11 @@
 
 ## 1. Projektprofil anlegen
 
-Kopiere `templates/project-profile.md` nach `.ai-e2e/project.md` im Anwendungsrepository und fülle es aus. Das Profil definiert Ziele, Befehle, Datenpolitik und projektspezifische Regeln. Die [Standardpfade](paths.md) gelten, soweit das Profil keine Bestandsprojektpfade ausdrücklich abweichend registriert.
+Kopiere `templates/project.md` nach `.ai-e2e/project.md` im Anwendungsrepository und fülle es aus. Das Profil legt pro Ziel URL, Start- und Testbefehl, Seed-Test sowie die Pfade für Testfälle, Specs und Berichte fest; optional kommen projektspezifische Hinweise dazu. Die [Standardpfade](paths.md) gelten, soweit das Profil keine Bestandsprojektpfade ausdrücklich abweichend registriert.
 
 ## 2. Gemeinsame Skills kopieren
 
-Kopiere alle sechs vollständigen Verzeichnisse aus `skills/` in das Skill-Verzeichnis des gewählten Clients:
+Kopiere alle sechs vollständigen Verzeichnisse aus `skills/` (einschließlich der enthaltenen `template.md`-Berichtsvorlagen) in das Skill-Verzeichnis des gewählten Clients:
 
 | Client | Projektverzeichnis |
 | --- | --- |
@@ -33,7 +33,7 @@ Get-ChildItem -Directory -Path (Join-Path $workflowSource 'skills') | ForEach-Ob
 }
 ```
 
-Vor dem Kopieren prüfen, ob gleichnamige Verzeichnisse bereits bestehen. Nicht blind überschreiben oder verschachteln. Soll ein Skill in mehreren Clients verfügbar sein, die passende Installation für jeden Client ausführen. Für OpenCode zusätzlich die sechs Dateien aus `adapters/opencode/commands/` nach `.opencode/commands/` kopieren; zuvor Namenskollisionen prüfen. Versionsstand im Projektprofil festhalten und Änderungen im Zielprojekt prüfen und versionieren.
+Vor dem Kopieren prüfen, ob gleichnamige Verzeichnisse bereits bestehen. Nicht blind überschreiben oder verschachteln. Soll ein Skill in mehreren Clients verfügbar sein, die passende Installation für jeden Client ausführen. Für OpenCode zusätzlich die sechs Dateien aus `adapters/opencode/commands/` nach `.opencode/commands/` kopieren; zuvor Namenskollisionen prüfen. Verwendete Workflow-Version (Tag oder Commit) im Anwendungsprojekt festhalten, z. B. in der Commit-Nachricht, und Änderungen im Zielprojekt prüfen und versionieren.
 
 ## 3. Playwright-Agenten einrichten
 
