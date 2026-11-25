@@ -23,4 +23,4 @@
 
 ## Übergabe
 
-- Nächster Schritt: <konkreter Auftrag und Voraussetzung oder kein weiterer Schritt nötig>
+- Nächster Schritt: <Befehl, z. B. `/e2e-heal <ziel> batch=<name>`, und Voraussetzung oder kein weiterer Schritt nötig>

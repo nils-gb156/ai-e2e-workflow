@@ -17,4 +17,4 @@
 ## Übergabe
 
 - Offene Entscheidungen und Blocker: <Details>
-- Nächster Schritt: <Auftrag und Voraussetzung oder kein weiterer Schritt nötig>
+- Nächster Schritt: <Befehl, z. B. `/e2e-generate <ziel> batch=<name>`, und Voraussetzung oder kein weiterer Schritt nötig>
