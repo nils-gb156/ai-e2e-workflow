@@ -20,4 +20,4 @@ Dieses Schema gilt ab Installation im **Anwendungsrepository**. Es sind standard
 
 Beispiele: `/e2e-readiness`, `/e2e-plan klimamonitor`, `/e2e-verification klimamonitor batch=suche`. Aufrufe funktionieren nur nach clientabhängiger Installation; siehe [clients.md](clients.md). Testartefakte verbleiben an den in der Playwright-Konfiguration festgelegten Orten und müssen eindeutig einem Lauf zugeordnet werden.
 
-Das Projektprofil registriert pro Ziel Startbefehl, URL, Pfade und Projekt-Skill. Der Testplan und die Berichte sind die persistente Übergabe. Vorgängerberichte auf Batch, Kriterien, Git-Stand und wesentliche Änderungen prüfen; veraltete Freigaben nicht übernehmen. Der Name `current` ist kein Aktualitätsnachweis.
+Das Projektprofil registriert pro Ziel Startbefehl, URL, Pfade und Projekt-Skills. Der Testplan und die Berichte sind die persistente Übergabe. Vorgängerberichte auf Batch, Kriterien, Git-Stand und wesentliche Änderungen prüfen; veraltete Freigaben nicht übernehmen. Der Name `current` ist kein Aktualitätsnachweis.

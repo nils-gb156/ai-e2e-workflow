@@ -5,7 +5,7 @@ description: Assess functional acceptance criteria for readiness for a scoped Pl
 
 # E2E-Reifeprüfung
 
-Lies `.ai-e2e/project.md`, löse Ziel und optionales `batch=<name>` anhand des Aufrufs auf und lade einschlägige Projekt-Skills und fachliche Kriterien. Bei mehreren Zielen ohne eindeutigen Default frage nach. Ohne Batchangabe gilt `current`. Standardziel für den Bericht ist `test-plans/e2e/<ziel>/<batch>/readiness.md`; ein ausdrücklich registrierter Projektpfad hat Vorrang. Erfasse den Git-Stand, relevante uncommittete Änderungen und Voraussetzungen.
+Lies `.ai-e2e/project.md`, löse Ziel und optionales `batch=<name>` anhand des Aufrufs auf und lade die im Profil genannten Projekt-Skills und fachliche Kriterien. Bei mehreren Zielen ohne eindeutigen Default frage nach. Ohne Batchangabe gilt `current`. Standardziel für den Bericht ist `test-plans/e2e/<ziel>/<batch>/readiness.md`; ein ausdrücklich registrierter Projektpfad hat Vorrang. Erfasse den Git-Stand, relevante uncommittete Änderungen und Voraussetzungen.
 
 Verwende die verfügbaren, für das Projekt konfigurierten Playwright-MCP-Browserwerkzeuge zur Beobachtung der laufenden Anwendung. Ein Skill installiert oder aktiviert keine MCP-Tools: fehlen sie, ausdrücklich melden und die Prüfung nur als vorläufig kennzeichnen; keine vollständige Freigabe behaupten. Prüfe je Kriterium anhand des tatsächlichen Projekts, der laufenden Anwendung und bei Bedarf der Daten- und Serviceverträge, ob es mit einem nachvollziehbaren Testorakel reproduzierbar geprüft werden kann. Beobachtetes Verhalten und fachliche Erwartung unterscheiden; Abweichungen belegen und fachlich klären lassen. Erfinde keine Routen, Daten, Berechtigungen oder Selektoren.
 

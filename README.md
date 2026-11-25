@@ -23,7 +23,8 @@ Die Sessions tauschen sich über Dateien im Anwendungsprojekt aus. Ein grüner T
 | Pfad | Zweck |
 | --- | --- |
 | `docs/` | Einrichtung, Client-Besonderheiten, Ablauf und Pflege |
-| `skills/` | Sechs gemeinsame Einstiegspunkte für den Workflow, inkl. Berichtsvorlagen (`template.md`) |
+| `skills/` | Sechs Workflow-Skills inkl. Berichtsvorlagen (`template.md`) und die gemeinsamen Konventionen `e2e-conventions` |
+| `frameworks/` | Optionale Framework-Skills, z. B. für Open Pioneer Trails inkl. Map-Model-Helper als Kopiervorlage |
 | `adapters/opencode/` | Slash-Befehle für OpenCode |
 | `templates/` | Kopiervorlage für das Projektprofil |
 | `prompts/` | Kopierbare Aufträge für alle Schritte |
